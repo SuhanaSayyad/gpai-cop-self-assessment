@@ -1,14 +1,13 @@
 ---
-title: GPAI Code of Practice Self-Assessment Tool
-emoji: AI
-colorFrom: blue
-colorTo: indigo
-sdk: streamlit
-sdk_version: 1.35.0
-app_file: app.py
-pinned: true
-license: mit
-short_description: Check your GPAI model compliance with EU AI Act Articles 53 and 55
+Title: GPAI Code of Practice Self-Assessment Tool
+ColorFrom: blue
+ColorTo: indigo
+Sdk: streamlit
+Sdk_version: 1.35.0
+App_file: app.py
+Pinned: true
+License: mit
+Short_description: Check your GPAI model compliance with EU AI Act Articles 53 and 55
 ---
 
 # GPAI Code of Practice Self-Assessment Tool
@@ -22,7 +21,7 @@ short_description: Check your GPAI model compliance with EU AI Act Articles 53 a
 
 ## What this tool does
 
-The GPAI Code of Practice was finalised on 10 July 2025. It sets out the concrete compliance measures that GPAI model providers must implement under Articles 53 and 55 of the EU AI Act. Obligations became enforceable from 2 August 2026.
+The GPAI Code of Practice was finalised on 10 July 2025. It sets out the concrete compliance measures that GPAI model providers must implement under Articles 53 and 55 of the EU AI Act. These obligations became applicable on 2 August 2025, with Commission enforcement powers beginning 2 August 2026.
 
 This tool walks through 13 key measures across three chapters and generates a full compliance assessment with downloadable reports.
 
@@ -44,12 +43,12 @@ This tool walks through 13 key measures across three chapters and generates a fu
 - Notes field per measure to record your implementation evidence and references
 
 **Results**
-- Compliance score with RAG colour-coded banner (green above 80%, amber above 50%, red below 50%)
+- Compliance score with a red/amber/green (RAG) colour-coded banner (green above 80%, amber above 50%, red below 50%)
 - Radar chart showing compliance percentage across Transparency, Copyright, and Systemic Risk sections
 - Colour-coded result card for every measure showing status and your notes
 - Automatic skip of Systemic Risk section for models below the threshold
 
-**Action Plan**
+**Action plan**
 - 90-day action plan automatically generated from your gaps
 - Gaps categorised by implementation complexity: 30 days for quick wins, 60 days for medium effort, 90 days for complex implementation
 - Priority categories based on actual effort required, not just article order
@@ -131,7 +130,7 @@ streamlit run app.py
 
 This tool provides technical guidance only and does not constitute legal advice. It does not replace qualified legal counsel or formal conformity assessment. Always verify your obligations against the official EU AI Act text at [artificialintelligenceact.eu](https://artificialintelligenceact.eu).
 
-Mapping accuracy is based on analysis of publicly available framework documentation as of June 2026.
+Assessment content is based on analysis of the GPAI Code of Practice and EU AI Act text available as of June 2026.
 
 ---
 
@@ -141,10 +140,6 @@ Mapping accuracy is based on analysis of publicly available framework documentat
 |---|---|---|
 | [EU AI Act / NIST AI RMF / ISO 42001 Crosswalk](https://suhanasayyad.github.io/eu-ai-act-crosswalk-tool) | Maps 30 EU AI Act obligations to NIST and ISO 42001 with strength indicators and gap analysis | Live |
 | GPAI CoP Self-Assessment | This tool | Live |
-| EU AI Act + GDPR Conflict Analyzer | Identifies tensions between GDPR and EU AI Act for the same AI system | Coming 17 June 2026 |
-| Article 10(5) Bias Audit Report Generator | Python tool running bias metrics on uploaded datasets, generates Article 10(5) compliant report | Coming 24 June 2026 |
-| Article 5 Prohibited Practice Detector | NLP classifier checking AI system descriptions against Article 5 prohibitions | Coming 1 July 2026 |
-
 ---
 
-Built by [Suhana Sayyad](https://linkedin.com/in/suhana35) | [GitHub](https://github.com/SuhanaSayyad) | IAPP Member | MSc Cybersecurity, TUS Athlone, Ireland
+Built by [Suhana Sayyad](https://linkedin.com/in/suhana35) | [GitHub](https://github.com/SuhanaSayyad) | MSc Cybersecurity, TUS Athlone, Ireland
