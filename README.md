@@ -1,12 +1,12 @@
 ---
 Title: GPAI Code of Practice Self-Assessment Tool
-ColorFrom: blue
-ColorTo: indigo
-Sdk: streamlit
+ColorFrom: Blue
+ColorTo: Indigo
+Sdk: Streamlit
 Sdk_version: 1.35.0
 App_file: app.py
-Pinned: true
-License: mit
+Pinned: True
+License: MIT
 Short_description: Check your GPAI model compliance with EU AI Act Articles 53 and 55
 ---
 
@@ -14,7 +14,8 @@ Short_description: Check your GPAI model compliance with EU AI Act Articles 53 a
 
 > A free, open-source self-assessment tool for providers of general-purpose AI (GPAI) models to check their compliance with the EU AI Act GPAI Code of Practice obligations under Articles 53 and 55.
 
-**Built by:** [Suhana Sayyad](https://linkedin.com/in/suhana35) | MSc Cybersecurity, TUS Athlone | IAPP Member
+**Built by:** [Suhana Sayyad](https://linkedin.com/in/suhana35) | MSc Cybersecurity, TUS Athlone
+
 **GitHub:** [github.com/SuhanaSayyad](https://github.com/SuhanaSayyad)
 
 ---
@@ -136,10 +137,10 @@ Assessment content is based on analysis of the GPAI Code of Practice and EU AI A
 
 ## Related tools
 
-| Tool | Description | Status |
+| Tool | Description 
 |---|---|---|
 | [EU AI Act / NIST AI RMF / ISO 42001 Crosswalk](https://suhanasayyad.github.io/eu-ai-act-crosswalk-tool) | Maps 30 EU AI Act obligations to NIST and ISO 42001 with strength indicators and gap analysis | Live |
-| GPAI CoP Self-Assessment | This tool | Live |
+| GPAI CoP Self-Assessment | This tool |
 ---
 
 Built by [Suhana Sayyad](https://linkedin.com/in/suhana35) | [GitHub](https://github.com/SuhanaSayyad) | MSc Cybersecurity, TUS Athlone, Ireland
