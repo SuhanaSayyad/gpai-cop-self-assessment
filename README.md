@@ -137,10 +137,11 @@ Assessment content is based on analysis of the GPAI Code of Practice and EU AI A
 
 ## Related tools
  
-| Tool | Description | Status |
-|---|---|---|
-| [EU AI Act / NIST AI RMF / ISO 42001 Crosswalk](https://suhanasayyad.github.io/eu-ai-act-crosswalk-tool) | Maps 30 EU AI Act obligations to NIST and ISO 42001 with strength indicators and gap analysis | Live |
-| GPAI CoP Self-Assessment | This tool | Live |
+| Tool | Description 
+|---|---
+| [EU AI Act / NIST AI RMF / ISO 42001 Crosswalk](https://suhanasayyad.github.io/eu-ai-act-crosswalk-tool) | Maps 30 EU AI Act obligations to NIST and ISO 42001 with strength indicators and gap analysis 
+| GPAI CoP Self-Assessment | This tool 
 
+---
 
 Built by [Suhana Sayyad](https://linkedin.com/in/suhana35) | [GitHub](https://github.com/SuhanaSayyad) | MSc Cybersecurity, TUS Athlone, Ireland
